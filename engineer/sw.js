@@ -2,7 +2,7 @@
 // Precaches the whole app on first visit, then serves from the cache, so it
 // works with no signal. The cache name carries the version: publishing a new
 // version installs a new cache and deletes the old one.
-const CACHE = "ukdsear-engineer-v3.5";
+const CACHE = "ukdsear-engineer-v3.7";
 const FILES = ["./", "./index.html", "./manifest.webmanifest",
   "./icon-192.png", "./icon-512.png", "./icon-maskable-512.png", "./apple-touch-icon.png"];
 
