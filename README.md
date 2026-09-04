@@ -45,6 +45,18 @@ engineer/icon-*.png
 user/…                     the same for the site user app
 ```
 
+## Protected copies
+
+The same two apps, encrypted, sit at `/locked/`:
+
+```
+https://YOURNAME.github.io/REPO/locked/
+```
+
+They are not linked from the main landing page, so only someone given the address will go there. A password is needed each time they open, including once installed on a phone. Without it there is nothing readable in those pages.
+
+The open apps at the top level are unaffected and still need no password.
+
 ## Authenticity
 
 Both hosted apps carry the keyed fingerprint. A **Verify build** tab sits at the bottom left of every screen. Entering the author password confirms whether the app is exactly as published.
