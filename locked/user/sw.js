@@ -1,7 +1,7 @@
-// Offline cache for the protected copy of UKDSEAR USER v2.4
+// Offline cache for the protected copy of UKDSEAR USER v2.5
 // The cached page is the encrypted one, so a cached copy is no more
 // readable than the file itself. The password is still needed each time.
-const CACHE = "ukdsear-locked-user-v2.4";
+const CACHE = "ukdsear-locked-user-v2.5";
 const FILES = ["./", "./index.html", "./manifest.webmanifest",
   "./icon-192.png", "./icon-512.png", "./icon-maskable-512.png", "./apple-touch-icon.png"];
 self.addEventListener("install", function (e) {
